@@ -104,10 +104,10 @@ pnpm dev
 |----------|----------|-------------|
 | DATABASE_URL | Yes | MySQL connection string |
 | JWT_SECRET | Yes | Secret for JWT signing (32+ chars) |
-| OPENAI_API_KEY | No | OpenAI API key for AI features |
-| LLM_API_URL | No | Custom LLM endpoint URL |
-| LLM_MODEL | No | LLM model name (default: gpt-4o-mini) |
-| PORT | No | Server port (default: 3000) |
+| OPENAI_API_KEY | Yes | OpenAI API key for AI features |
+| LLM_API_URL | Yes | Custom LLM endpoint URL |
+| LLM_MODEL | Yes | LLM model name (default: ds) |
+| PORT | Yes | Server port (default: 3000) |
 
 ### LLM Configuration
 
