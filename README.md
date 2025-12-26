@@ -93,7 +93,9 @@ pnpm dev
 │   └── auth.ts            # Authentication utilities
 ├── drizzle/               # Database schema and migrations
 ├── shared/                # Shared types and constants
-└── scripts/               # Utility scripts
+    └── scripts/               # Utility scripts
+    └── ngrok/                 # creates a secure tunnel to your localhost
+    └── .env/                  # local environment setting
 ```
 
 ## Configuration
