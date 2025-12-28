@@ -96,6 +96,8 @@ pnpm dev
     └── scripts/               # Utility scripts
     └── ngrok/                 # creates a secure tunnel to your localhost
     └── .env/                  # local environment setting
+    └── requirement.txt/       # packages need to download
+
 ```
 
 ## Configuration
